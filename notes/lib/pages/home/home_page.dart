@@ -45,7 +45,8 @@ class _HomePageState extends State<HomePage> {
           ],
         ),
       ),
-      floatingActionButton: FABWidget(
+      floatingActionButton: DABWidget(
+        // floatingActionButton: FABWidget(
         onPressed: () async {
           final description =
               await Navigator.pushNamed(context, '/create-note');
