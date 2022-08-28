@@ -6,6 +6,9 @@ abstract class AppColors {
   Color get title;
   Color get button;
   Color get border;
+  Color get borderAddButton;
+  Color get tittleAppBar;
+  Color get icon;
 }
 
 class AppColorsDefault implements AppColors {
@@ -22,5 +25,14 @@ class AppColorsDefault implements AppColors {
   Color get backgroundPrimary => const Color(0xFFFFFFFF);
 
   @override
-  Color get border => const Color(0xFF000000);
+  Color get border => const Color(0xFFDCE0E5);
+
+  @override
+  Color get tittleAppBar => const Color(0xFFFFFFFF);
+
+  @override
+  Color get borderAddButton => const Color(0xFFFFFFFF);
+
+  @override
+  Color get icon => const Color(0xFFF5F5F5);
 }
